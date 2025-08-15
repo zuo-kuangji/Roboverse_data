@@ -35,3 +35,10 @@ This repository includes a verification script that runs a **random joint action
 It helps confirm that the robot’s assets load correctly and that the simulation works as expected.
 
 ### Script Location
+metasim/scripts/random_action_notik.py
+
+### Usage
+From the repository root, run:
+```bash
+python metasim/scripts/random_action_notik.py --robot <robot_name> --sim <sim_name>
+For example: python metasim/scripts/random_action_notik.py --robot sawyer --sim mujoco
